@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<offsets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <playerName rebased="true">0xEBF648</playerName>
+  <playerRealm rebased="true">0xEBF7DE</playerRealm>
+  <lfgQueueStats rebased="false">0x1204170</lfgQueueStats>
+  <lfgProposal rebased="false">0x1204248</lfgProposal>
+  <bgQueueStats>
+    <BasePtr rebased="false">0xF5E1BC</BasePtr>
+    <NextPtr>0x4</NextPtr>
+    <BattleMasterListIdPtr>0x28</BattleMasterListIdPtr>
+    <MapId>0x30</MapId>
+    <Status>0x34</Status>
+    <EstimatedWait>0x48</EstimatedWait>
+    <TimeWaited>0x4C</TimeWaited>
+  </bgQueueStats>
+  <dbc>
+    <LfgDungeons rebased="false">0x1086C94</LfgDungeons>
+    <BattleMasterList rebased="true">0xC850E8</BattleMasterList>
+    <Map rebased="true">0xC89034</Map>
+  </dbc>
+</offsets>
