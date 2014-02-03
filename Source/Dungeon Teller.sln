@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon Teller", "Dungeon Teller\Dungeon Teller.csproj", "{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD} = {5203DA63-7A23-4BD2-AD17-945135CC7FDD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonTellerXML", "DungeonTellerXMLConfig\DungeonTellerXML.csproj", "{5203DA63-7A23-4BD2-AD17-945135CC7FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD} = {5203DA63-7A23-4BD2-AD17-945135CC7FDD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Debug|Mixed Platforms.ActiveCfg = Release|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Debug|Mixed Platforms.Build.0 = Release|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Debug|x86.ActiveCfg = Debug|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Debug|x86.Build.0 = Debug|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Release|Any CPU.ActiveCfg = Release|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Release|x86.ActiveCfg = Release|x86
+		{E2F965FE-A126-4A2C-A4DA-570BCC80AE57}.Release|x86.Build.0 = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Debug|Mixed Platforms.ActiveCfg = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Debug|Mixed Platforms.Build.0 = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Debug|x86.ActiveCfg = Debug|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Debug|x86.Build.0 = Debug|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Release|Any CPU.ActiveCfg = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Release|x86.ActiveCfg = Release|x86
+		{5203DA63-7A23-4BD2-AD17-945135CC7FDD}.Release|x86.Build.0 = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Debug|Mixed Platforms.ActiveCfg = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Debug|Mixed Platforms.Build.0 = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Debug|x86.ActiveCfg = Debug|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Debug|x86.Build.0 = Debug|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Release|Any CPU.ActiveCfg = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Release|x86.ActiveCfg = Release|x86
+		{0F95922D-8E8D-43F5-9C91-BAAAA065F4DF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
