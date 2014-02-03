@@ -17,7 +17,7 @@ ___
 **Known Issues**
 
     - Scenario queue is broken - this will be implemented at a later stage
-    - DBC reading is broken - a fudge has been implemented in the meantime (dumbed dbcs; should be complete)
+    - DBC reading is broken - a fudge has been implemented in the meantime (dumped dbcs; should be complete)
     - Queueing for multiple PvE instances is not handled as nicely as PvP, but this is due to the WoW client and cannot be helped :(
     - Code is ugly and needs reworking - but at least it's currently operational ^^
     
@@ -25,7 +25,9 @@ ___
     - Implement Scenario Queues (High priority)
     - Clean up code; remove unused stuff etc. (Low priority)
     - Implement Updates system (Medium priority)
+
 ___
+
 How To Use
 ----------
 
@@ -46,7 +48,9 @@ Credits
 * [Siriuz] - Rebooted and continued to update Dungeon Teller for ages; released the source
 * [Ownedcore Memory Editing Section] - one of the most amazing resources to learn memory editing; awesome people
 * Anyone else I forgot - sorry!
+
 ___
+
 **License**
 
 Free, do whatever you want, as long as you give credit :)
