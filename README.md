@@ -10,7 +10,7 @@ ___
 **Current Status**
 
     - PvE (mostly) working as intended
-    - PvP only briefly tested - if anyone wants to confirm this is working ok then that would be great
+    - PvP only briefly tested - if anyone wants to confirm this is working ok then that would be great (specifically Arenas & Rated BGS)
     - Only the default options have been tested - currently the status of notifications, emails etc. is unknown
     *** Updating has been disabled at the moment while I implement a solution; offsets are still read from offsets.xml ***
 
