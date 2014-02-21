@@ -57,10 +57,10 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="WowVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)">5.2.0.16769</Value>
+      <Value Profile="(Default)">5.4.7.17930</Value>
     </Setting>
     <Setting Name="OffsetsLastUpdated" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1363093519</Value>
+      <Value Profile="(Default)">1393008139</Value>
     </Setting>
     <Setting Name="Push" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
