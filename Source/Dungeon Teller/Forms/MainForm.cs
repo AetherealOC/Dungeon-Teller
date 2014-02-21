@@ -740,12 +740,12 @@ namespace Dungeon_Teller.Forms
 
 		private void timerLFDRefresh_Tick(object sender, EventArgs e)
 		{
-			Helper.LfgRefresh(lfdModule, lfdQueue);
+			Helper.LfgRefresh(lfdModule, lfdQueue, 1);
 		}
 
 		private void timerLfrRefresh_Tick(object sender, EventArgs e)
 		{
-			Helper.LfgRefresh(lfrModule, lfrQueue);
+			Helper.LfgRefresh(lfrModule, lfrQueue, 2);
 		}
 
 		private void timerBg1Refresh_Tick(object sender, EventArgs e)

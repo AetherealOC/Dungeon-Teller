@@ -131,9 +131,11 @@ namespace Dungeon_Teller.Classes
 
 			module.lbl_QueueTime.Text = Helper.getFormatedTimeString(queuedTime);
 		}
-		public static void LfgRefresh(DTModule module, QueueStats.LFGDataStruct queue)
+		public static void LfgRefresh(DTModule module, QueueStats.LFGDataStruct queue, int typetest)
 		{
-            
+            int totaltanks = 1;
+            int totaldps = 3;
+            int totalheals = 1;
             try
             {
                 dname = Forms.ProcessSelector.DungeonIDs[queue.LfgDungeonsId];
@@ -141,6 +143,12 @@ namespace Dungeon_Teller.Classes
             catch (Exception ex)
             {
                 dname = "Couldn't Get Dungeon Name";
+            }
+            if (typetest == 2)
+            {
+                totaltanks = 2;
+                totaldps = 17;
+                totalheals = 6;
             }
 			var LfgDungeon = QueueStats.LfgDungeons[queue.LfgDungeonsId];
 			module.lbl_Status.Text =  String.Format("{0} (queued)", excerptString(dname));
@@ -153,17 +161,17 @@ namespace Dungeon_Teller.Classes
 			int queuedTime = (System.Environment.TickCount - queue.queuedTime) / 1000;
 			module.lbl_QueueTime.Text = Helper.getFormatedTimeString(queuedTime);
 
-			int tank = LfgDungeon.totalTanks - queue.tankNeeds;
-			int healer = LfgDungeon.totalHealers - queue.healerNeeds;
-			int dps = LfgDungeon.totalDPS - queue.dpsNeeds;
+			int tank = totaltanks - queue.tankNeeds;
+			int healer = totalheals - queue.healerNeeds;
+			int dps = totaldps - queue.dpsNeeds;
 
 			module.pic_Tank.Image = (queue.tankNeeds == 0) ? bmpTank : Helper.ConvertToGrayScale(bmpTank);
 			module.pic_Heal.Image = (queue.healerNeeds == 0) ? bmpHeal : Helper.ConvertToGrayScale(bmpHeal);
 			module.pic_Dps.Image = (queue.dpsNeeds == 0) ? bmpDps : Helper.ConvertToGrayScale(bmpDps);
-
-			module.lbl_Tank.Text = tank + " / " + LfgDungeon.totalTanks;
-			module.lbl_Healer.Text = healer + " / " + LfgDungeon.totalHealers;
-			module.lbl_Dps.Text = dps + " / " + LfgDungeon.totalDPS;
+          // MessageBox.Show(string.Format("Total tanks: {0}, Total heals: {1}, Total dps: {2}", queue.tankNeeds, totalheals, totaldps));
+			module.lbl_Tank.Text = tank + " / " + totaltanks;
+			module.lbl_Healer.Text = healer + " / " + totalheals;
+			module.lbl_Dps.Text = dps + " / " + totaldps;
 		}
 	}
 }
