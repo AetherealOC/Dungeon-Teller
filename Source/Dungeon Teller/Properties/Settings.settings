@@ -57,7 +57,7 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="WowVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)">5.4.7.17930</Value>
+      <Value Profile="(Default)">5.4.7.17956</Value>
     </Setting>
     <Setting Name="OffsetsLastUpdated" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">1393008139</Value>

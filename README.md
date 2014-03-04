@@ -40,7 +40,7 @@ How To Use
 Current Supported Build
 ----
 
-5.4.7.17930 (Live)
+5.4.7.17956 (Live)
 
 Credits
 -----------

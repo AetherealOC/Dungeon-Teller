@@ -241,7 +241,7 @@ namespace Dungeon_Teller.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5.4.7.17930")]
+        [global::System.Configuration.DefaultSettingValueAttribute("5.4.7.17956")]
         public string WowVersion {
             get {
                 return ((string)(this["WowVersion"]));
